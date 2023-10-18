@@ -99,7 +99,16 @@ public class GameBoard {
 		} else {
 			newMinY = minY;
 			newMaxY = maxY;
-		}		
+		}
+		
+		if (GUIGameController.getDebugMode()) {
+			System.out.println("MinX " + newMinX);
+			System.out.println("MaxX " + newMaxX);
+			System.out.println("MinY " + newMinY);
+			System.out.println("MaxY " + newMaxY);
+			System.out.println("--------------");
+		}
+		
 		
 		return new int[] { newMinX, newMaxX, newMinY, newMaxY };
 	}
