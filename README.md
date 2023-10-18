@@ -1,6 +1,7 @@
 <p>Course: CMSC 495 6380 Capstone in Computer Science</p>
 
 <p>Start Date: 22 AUG 2023</p>
+<p>End Date: 10 OCT 2023</p>
 
 <p>Authors:<br> 
 Alan Anderson<br>
