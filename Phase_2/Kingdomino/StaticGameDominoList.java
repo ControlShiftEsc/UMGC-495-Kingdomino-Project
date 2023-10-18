@@ -46,7 +46,7 @@ public class StaticGameDominoList {
     gameDominoList.add(new Domino(32, LandType.LAKE, 1, LandType.FOREST, 0));
     gameDominoList.add(new Domino(33, LandType.LAKE, 1, LandType.FOREST, 0));
     gameDominoList.add(new Domino(34, LandType.LAKE, 1, LandType.FOREST, 0));
-    gameDominoList.add(new Domino(35, LandType.LAKE, 1, LandType.FOREST, 0));
+    gameDominoList.add(new Domino(35, LandType.WHEATFIELD, 0, LandType.FOREST, 0));
     gameDominoList.add(new Domino(36, LandType.WHEATFIELD, 0, LandType.GRASSLAND, 1));
     gameDominoList.add(new Domino(37, LandType.LAKE, 0, LandType.GRASSLAND, 1));
     gameDominoList.add(new Domino(38, LandType.WHEATFIELD, 0, LandType.SWAMP, 1));

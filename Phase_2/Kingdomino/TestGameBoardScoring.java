@@ -25,8 +25,8 @@ public class TestGameBoardScoring {
       Player p = new Player("Player # " + rnp);
       playerList.add(p);
 
-      for (int i = 0; i < 5; i++) { // for each space in the column
-        for (int k = 0; k < 5; k++) { // for each space in the row
+      for (int i = 0; i < p.getPlayerGameBoard().getWidth(); i++) { // for each space in the column
+        for (int k = 0; k < p.getPlayerGameBoard().getHeight(); k++) { // for each space in the row
           int randPick = randType.nextInt(7); // select a random land type
           if (randPick == 0) {
             randTypeChoice = LandType.WHEATFIELD;
@@ -65,8 +65,8 @@ public class TestGameBoardScoring {
       p.getPlayerGameBoard().getGameBoardSpace(castleX, castleY).setNumCrowns(0);
 
       // then print the board
-      for (int y = 0; y < 5; y++) {
-        for (int x = 0; x < 6 ; x++) {
+      for (int y = 0; y < p.getPlayerGameBoard().getHeight(); y++) {
+        for (int x = 0; x < p.getPlayerGameBoard().getWidth(); x++) {
           System.out.print(p.getPlayerGameBoard().getGameBoardSpaces()[x][y].toString());
           System.out.print("  ");
         }
